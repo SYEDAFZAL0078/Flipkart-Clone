@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Dancing+Script&family=Festive&family=Lato:wght@300&family=Supermercado+One&family=Ubuntu+Condensed&family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Ubuntu&family=Ubuntu+Condensed&display=swap');
+*{
+    margin: 0px;
+    padding:0px;
+}
+:root{
+    --main-bg-color:#2874f0;
+
+}
+header{
+    background-color:var(--main-bg-color);
+    font-family: 'Lato', sans-serif;
+}
+nav ul{
+    height: 58px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+nav{
+    display: flex;
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width:88px;
+    padding:0px 25px;
+}
+nav ul li{
+    padding:0px 25px;
+    list-style: none;
+    font-size: 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:white;
+    
+}
+nav ul li a:hover{
+    text-decoration: none;
+    font-weight: bolder;
+    
+}
+.search{
+    display: flex;
+    align-items: center;
+}
+.signandlog1{
+    display: flex;
+    margin:20px 20px;
+    padding: 0px 80px;
+    
+}
+.signandlog1 p{
+    border:2px solid white;
+    font-size: medium;
+    width: 60px;
+    height: 23px;
+    color: white;
+    cursor: pointer;
+    word-spacing: 4px;
+    border-radius: 7px;
+    text-align: center;
+    
+}
+.signandlog1 p:hover{
+    font-weight: bold;
+}
+.signandlog2{
+    display: flex;
+    margin:20px 20px;
+    padding: 0px 0px;
+    
+}
+.signandlog2 p{
+    border:2px solid white;
+    font-size: medium;
+    width: 60px;
+    height: 23px;
+    color: white;
+    cursor: pointer;
+    word-spacing: 4px;
+    border-radius: 7px;
+    text-align: center;
+    
+}
+.signandlog2 p:hover{
+    font-weight: bold;
+}
+
+
+.slider{
+    margin: auto;
+    width: 80vw;
+    margin:12px 300px;
+    overflow: hidden;
+}
+
+.search input{
+    width:30vw;
+    height: 27px;
+    border-radius: 5px;
+    margin: 0px 15px 0px 56px;
+    padding:0px 12px
+}
+.card h2{
+    font-family: 'Ubuntu', sans-serif;
+}
+.card{
+    max-width:91vw;
+    margin:auto;
+}
+.card-item{
+    margin:20px;
+      display:inline-flex;
+      justify-content: center;
+      flex-direction: column;
+}
+.cards{
+    display:flex;
+    /* justify-content: center; */
+    overflow: scroll;
+}
+.container{
+    min-height: calc(100vh - 58px - 12vh);
+
+}
+.search button{
+    font-family: 'Lato', sans-serif;
+}
+
+
+footer{
+
+    height: 12vh;
+    background-color: var(--main-bg-color);
+    color:white;
+    font-family: 'Lato', sans-serif;
+}
+.mine{
+    text-align:end;
+    font-weight: bolder;
+    color: black;
+}

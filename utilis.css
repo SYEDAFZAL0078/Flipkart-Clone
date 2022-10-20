@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Dancing+Script&family=Festive&family=Lato:wght@300&family=Supermercado+One&family=Ubuntu+Condensed&family=Varela+Round&display=swap');
+.flex-all-center{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+
+}
+.btn{
+    padding: 5px 10px;
+    color:white;
+    background:var(--main-bg-color);
+   font-weight: 500px;
+    border:2px solid white ;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.btn:hover{
+    font-weight: bolder;    
+}
+.my-2{
+    margin:26px 0;
+}
+.text-center{
+    text-align: center;
+
+}
+.my-1{
+    margin:5px 0px;
+}
